@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartTechHub — Premium digital subscriptions & tools</title>
+    <meta name="description" content="Buy premium digital subscriptions and tools at SmartTechHub. Get instant delivery on streaming, productivity and AI accounts in Bangladesh.">
+    <meta name="author" content="SmartTechHub" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://smarttechhubbd.shop/" />
+    <meta property="og:site_name" content="SmartTechHub" />
+    <meta property="og:title" content="SmartTechHub — Premium digital subscriptions & tools">
+    <meta property="og:description" content="Buy premium digital subscriptions and tools at SmartTechHub. Get instant delivery on streaming, productivity and AI accounts in Bangladesh.">
+    <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/67b82fbb-fed7-4aaf-bec2-e0820b0f333d">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SmartTechHub — Premium digital subscriptions & tools">
+    <meta name="twitter:description" content="Buy premium digital subscriptions and tools at SmartTechHub. Get instant delivery on streaming, productivity and AI accounts in Bangladesh.">
+    <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/67b82fbb-fed7-4aaf-bec2-e0820b0f333d">
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Organization","name":"SmartTechHub","url":"https://smarttechhubbd.shop/","logo":"https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/67b82fbb-fed7-4aaf-bec2-e0820b0f333d"}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebSite","name":"SmartTechHub","url":"https://smarttechhubbd.shop/"}
+    </script>
+  <style>
+    #initial-loader {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; align-items: center; justify-content: center;
+      background: #ffffff;
+      transition: opacity .2s ease;
+    }
+    @media (prefers-color-scheme: dark) {
+      #initial-loader { background: #0b0b0f; }
+    }
+    #initial-loader.hide { opacity: 0; pointer-events: none; }
+    #initial-loader-spinner {
+      width: 56px; height: 56px; border-radius: 50%;
+      border: 4px solid rgba(127,127,127,.2);
+      border-top-color: #6366f1;
+      animation: itl-spin .8s linear infinite;
+    }
+    @keyframes itl-spin { to { transform: rotate(360deg); } }
+    #lovable-badge, [id^="lovable-badge"], [class*="lovable"], a[href*="lovable.dev"], iframe[src*="lovable.dev"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+      height: 0 !important;
+      width: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: 0 !important;
+      overflow: hidden !important;
+    }
+  </style>
+</head>
+  <body>
+    <div id="initial-loader"><div id="initial-loader-spinner"></div></div>
+    <div id="root"></div>
+    <script>
+      // Mark very early so perf logger can compute "HTML parsed → React" delta
+      window.__perfHtmlParsed = performance.now();
+      console.log('[perf] HTML parsed @ ' + window.__perfHtmlParsed.toFixed(0) + 'ms');
+    </script>
+    <script>
+      window.__hideInitialLoader = function () {
+        var el = document.getElementById('initial-loader');
+        if (!el) return;
+        el.classList.add('hide');
+        setTimeout(function () { if (el && el.parentNode) el.parentNode.removeChild(el); }, 200);
+      };
+      // Safety timeout — never let the initial loader stay visible longer than 2.5s
+      setTimeout(function () { window.__hideInitialLoader && window.__hideInitialLoader(); }, 2500);
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
